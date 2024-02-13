@@ -3,6 +3,7 @@ The primary goal of this project was to gather and analyze news articles related
 Business Insider, NDTV, and Republic World. The focus was on extracting relevant content, performing sentiment analysis, identifying top keywords, and generating 
 word clouds to gain insights into the coverage provided by these news outlets for a month.
 # Data Collection 
+
   • Al Jazeera: Utilized web scraping techniques with Selenium to retrieve news articles from Al Jazeera's website, considering articles published in the current 
   year for 30 days.
       a. I got the 30-day article after clicking “Show more” 50 times. Since for each day we have multiple news articles present in each website
