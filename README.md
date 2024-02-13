@@ -6,10 +6,11 @@ word clouds to gain insights into the coverage provided by these news outlets fo
 
   • Al Jazeera: Utilized web scraping techniques with Selenium to retrieve news articles from Al Jazeera's website, considering articles published in the current 
   year for 30 days.
-      a. I got the 30-day article after clicking “Show more” 50 times. Since for each day we have multiple news articles present in each website
+      a. I got the 30-day article after clicking “Show more” 50 times. Since for each day, we have multiple news articles present on each website
       b. The next step is to go to each URL/link and get the article. So that I have collected the article from each website
       c. Last step, I saved the entire text article in a text file with the headlines
-  • CNN: Collected news articles from CNN's Middle East live-news section for the last 30 days using web scraping.
+  
+  • CNN: Collected news articles from CNN's Middle East live news section for the last 30 days using web scraping.
       a. To get the data for a month I had to change the base URL with the dates I required articles for
       b. The next part I have done is to go to each link and get the article. For this, I used a loop and ran it 30 times while changing the dates
       c. Last step, I exported the entire text article for each website to one text file
